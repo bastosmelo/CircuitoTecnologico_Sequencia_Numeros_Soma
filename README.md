@@ -1,14 +1,17 @@
-# Projeto: Cálculo de Imposto de Renda (Lisarb)
+# 💰 Projeto: Cálculo de Imposto de Renda (Lisarb)
 
-Este projeto implementa o cálculo de imposto de renda com base nas faixas salariais de um país fictício chamado Lisarb.
+Este projeto em Java implementa o cálculo de imposto de renda com base nas faixas salariais de um país fictício chamado **Lisarb**, onde os habitantes pagam imposto com satisfação.
 
-## Versões disponíveis:
+## 🧮 Regras de cálculo
 
-- `ImpostoDeRenda.java`: Entrada via console (Scanner)
-- `ImpostoDeRendaArgs.java`: Entrada via argumento de linha de comando
-- `ImpostoDeRendaGUI.java`: Entrada via interface gráfica (JOptionPane)
+As faixas de imposto são:
 
-## Como compilar
+- Até R$ 2000.00: **Isento**
+- De R$ 2000.01 até R$ 3000.00: **8%**
+- De R$ 3000.01 até R$ 4500.00: **18%**
+- Acima de R$ 4500.00: **28%**
 
-```bash
-javac src/*.java
+O imposto é calculado **somando os percentuais por faixa** sobre os valores que ultrapassam o limite de isenção.
+
+## 📂 Estrutura do projeto
+
