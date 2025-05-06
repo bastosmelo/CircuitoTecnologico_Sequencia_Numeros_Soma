@@ -1,2 +1,2 @@
-# CircuitoTecnologico_Sequencia_N-meros_Soma
+# CircuitoTecnologico_Sequencia_Numeros_Soma
 Circuito Tecnológico - Mini Curso Git e Github - Exercício: Sequência de Números e Soma
